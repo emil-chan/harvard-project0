@@ -1,0 +1,52 @@
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #ffe9d6;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#category {
+	font-family: arial;
+}
+
+#classic {
+	font-family: times;
+}
+
+.centre {
+	text-align: center;
+}
+
+.row > div {
+	padding: 20px;
+	background-color: #ffcfff;
+}
+
+@media screen and (max-width: 699px) {
+	body {
+		background-color: #f0ffed;
+	}
+	.row > div {
+		border:10px solid #f0ffed;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		background-color: #fff5ff;
+	}
+	.row > div {
+		border:10px solid #fff5ff;
+	}
+}

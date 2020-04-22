@@ -1,0 +1,14 @@
+$left_margin_size: 100px;
+
+.left_margin {
+	margin-left: $left_margin_size;
+}
+
+div {
+    ul {
+        color: red;
+    }
+    ol {
+        color: blue;
+    }
+}
